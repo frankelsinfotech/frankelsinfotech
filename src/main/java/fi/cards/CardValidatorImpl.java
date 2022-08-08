@@ -5,8 +5,17 @@ import java.util.Objects;
 public class CardValidatorImpl implements CardValidator{
 
     String name;
+    String test;
     long cardNo;
     float amount;
+
+    public String getTest() {
+        return test;
+    }
+
+    public void setTest(String test) {
+        this.test = test;
+    }
 
     public CardValidatorImpl() {
         someMethod();
